@@ -1,0 +1,334 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid brown;
+}
+:root{
+    --fixed_width: 8.265122
+}
+.col-1{
+    width: calc(var(--fixed_width)*1%);
+}
+.col-2{
+    width: calc(var(--fixed_width)*2%);
+}
+.col-3{
+    width: calc(var(--fixed_width)*3%);
+}
+.col-4{
+    width: calc(var(--fixed_width)*4%);
+}
+.col-5{
+    width: calc(var(--fixed_width)*5%);
+}
+.col-6{
+    width: calc(var(--fixed_width)*6%);
+}
+.col-7{
+    width: calc(var(--fixed_width)*7%);
+}
+.col-8{
+    width: calc(var(--fixed_width)*8%);
+}
+.col-9{
+    width: calc(var(--fixed_width)*3%);
+}
+.col-sm-10{
+    width: calc(var(--fixed_width)*10%);
+}
+.col-11{
+    width: calc(var(--fixed_width)*11%);
+}
+.col-12{
+    width: calc(var(--fixed_width)*12%);
+
+}
+nav{
+    background-color: aliceblue;
+    width: var(--fixed_width);
+    text-align: center;
+   
+}
+nav .logo{
+    display: inline-block;
+   
+}
+nav .logo img{
+    width: 60px; 
+    
+}
+nav .logo h1{
+    color: #303C52;
+    vertical-align: 10px;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+nav .navbar{
+    display: inline-block;
+}
+nav .navbar ul{
+    text-align: center;
+}
+nav .navbar ul li{
+    display: inline-block;
+    vertical-align: 15px;
+}
+nav .navbar ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #303C52;
+    text-transform: capitalize;
+}
+.mainoption{
+    margin: 0 auto;
+    padding: 0 auto;
+    /* width: 1220px;   */
+    width: var(--fixed_width);
+}
+.mainoption .banner{
+    background: linear-gradient(#a8a9ab86, #e1e2e668), url("./img/table_work.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    background-position: center center;
+    text-align: center;
+}
+.mainoption h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 100px;
+    color: aliceblue;
+    
+}
+.mainoption .linedraw{
+    margin: 0 auto;
+    background: #0654e6;
+    width: calc(var(--fixed_width)*5%);
+    height: 2px;
+}
+.mainoption p{
+    margin: 0 auto;
+    width: var(--fixed_width);
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.mainoption .btn{
+    text-align: center; 
+    padding-top: 50px;
+}
+.mainoption .btn button{
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #a8a9ab3b;
+    border-color: #0654e6;
+    padding: 5px 15px;
+    color: aliceblue;
+}
+.mainoption .detailsdesign{
+    background-color: aliceblue;
+    
+}
+.mainoption .detailsdesign h1{
+    text-align: center;
+    color: #303C52;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.mainoption .detailsdesign p{
+    text-align: center;
+    color: #303C52;
+    overflow: hidden;
+}
+.mainoption .fontlogo{
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.mainoption .fontlogo .mobile{
+    width: var(--fixed_width)*2;
+    padding: 30px;
+    display: inline-block;
+}
+.mainoption .fontlogo .mobile a{
+    padding: 25px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #0654e6;
+    border-radius: 5px;
+}
+.mainoption .fontlogo .mobile h3{
+    padding-top: 20px;
+}
+.mainoption .fontlogo .mobile p{
+    width: var(--fixed_width)*2%;
+    
+}
+.mainoption .fontlogo .telegram{
+    width: 200px;
+    padding: 30px;
+    display: inline-block;
+    
+}
+.mainoption .fontlogo .telegram a{
+    padding: 25px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #0654e6;
+    border-radius: 5px;
+}
+.mainoption .fontlogo .telegram h3{
+    padding-top: 20px;
+}
+.mainoption .fontlogo .telegram p{
+    width: 200px;
+}
+.mainoption .fontlogo .soundsystem{
+    width: 200px;
+    display: inline-block;
+    padding: 30px;
+}
+.mainoption .fontlogo .soundsystem a{
+    padding: 25px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #0654e6;
+    border-radius: 5px;
+}
+.mainoption .fontlogo .soundsystem h3{
+    padding-top: 20px;
+}
+.mainoption .fontlogo .soundsystem p{
+    width: 200px;
+}
+.mainoption .showcasework{
+    background-color: rgba(238, 234, 230, 0.96);
+    margin: 0;
+    padding: 0;
+}
+.mainoption .showcasework h2{
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 40px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.829);
+}
+.mainoption .showcasework h4{
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 30px;
+    color: rgba(116, 111, 111, 0.94);
+}
+.mainoption .showcasework .img{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   align-content: space-around;
+    cursor: pointer;
+}
+.mainoption .showcasework .img img{
+    width: 100%;
+    height: 100%;
+}
+.mainoption .form{
+    background: linear-gradient(rgba(27, 23, 23, 0.928),rgba(23, 19, 19, 0.944)), url("./img/road2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+.mainoption .form h2{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 70px;
+    color: aliceblue;
+    padding-top: 70px;
+}
+.mainoption .form h3{
+    margin: 0;
+    color: aliceblue;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+input[type=text], select, textarea{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100px;
+    background-color: #30322fd2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+label{
+      color: aliceblue;
+      padding: 10px;
+}
+nav{
+    margin: 0 auto;
+    background-color: aliceblue;
+    /* border: 2px solid rgb(93, 0, 255); */
+}
+nav .copyright{
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid rgb(93, 0, 255); */
+}
+nav .socialmedia{
+    display: inline-block;
+    text-align: center;
+   
+}
+nav .socialmedia ul{
+      display: inline-block;
+      
+}
+nav .socialmedia ul li{
+      display: inline-block;
+      padding: 15px;
+      /* border: 2px solid rgb(93, 0, 255); */
+}
+nav .socialmedia li a{
+    font-size: 25px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
