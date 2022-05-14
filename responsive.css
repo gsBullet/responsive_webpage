@@ -39,6 +39,17 @@
     .col-sm-12{
         width: calc(var(--fixed_width)*12%);
     }
+    .mainoption{
+        text-align: center;
+    }
+    .mainoption h1{
+        padding-top: 50px;
+        padding-left: 60px;
+        text-transform: uppercase;
+        font-size: 50px;
+        color: aliceblue;
+        
+    }
     
 }
 /* semi small or tab */
@@ -85,6 +96,7 @@
     
 
 }
+/* ipad  */
 @media (min-width:768px) and (max-width:991.9px){
     .container{
         width: 768px;
@@ -126,6 +138,8 @@
         width: calc(var(--fixed_width)*12%);
     }
 }
+
+/* large content */
 @media (min-width:992px) and (max-width:1199.9px){
     .container{
         width: 992px;
@@ -167,6 +181,8 @@
         width: calc(var(--fixed_width)*12%);
     }
 }
+
+/* Extra large contenent */
 @media (min-width:1200px) and (max-width:1399.9px){
     .container{
         width: 1200px;
@@ -208,7 +224,7 @@
         width: calc(var(--fixed_width)*12%);
     }
 }
-
+/* XXL */
 @media (min-width:1400){
     .container{
         width: 1400px;
